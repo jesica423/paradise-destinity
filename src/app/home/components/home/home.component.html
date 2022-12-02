@@ -1,18 +1,20 @@
 <div class="container-fluid mt-5">
-  <h3 class="mb-2">Gran Tour por Europa</h3>
+  <h1 class="mb-2">Gran Tour por Europa</h1>
   <div class="row justify-content-end">
     <div *ngFor="let item of data" class="col-sm-6 col-md-4">
       <app-card [data]="item"></app-card>
     </div>
   </div>
 
+  <h1 class="mb-4 mt-5">Paris</h1>
   <app-carousel></app-carousel>
 
-  <div class="m-5 border p-4 border-color">
+  <h1 class="mb-4 mt-5">Descripcion del viaje</h1>
+  <div class="my-4 border p-4 border-color mr-5">
     <p>
       Un total exacto de todos los gastos recurridos de nuestras actividades
       turísticas, incluyendo el transporte, hospedaje y comidas, hace un total
-      de 1100 € por persona
+      de 3154 € por persona
     </p>
 
     <p>
